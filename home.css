@@ -8,8 +8,8 @@
   justify-content: center;
 }
 .home-heading {
-  top: 171px;
-  left: 832px;
+  top: 176px;
+  left: 946px;
   color: #ffffff;
   margin: auto;
   position: absolute;
@@ -19,8 +19,8 @@
 }
 
 .home-text {
-  top: 347px;
-  left: 274px;
+  top: 344px;
+  left: 388px;
   color: rgb(255, 255, 255);
   width: var(--dl-size-size-maxwidth);
   margin: auto;
@@ -133,8 +133,8 @@
   text-align: center;
 }
 .home-link {
-  top: 574px;
-  left: 918px;
+  top: 556px;
+  left: 1035px;
   color: #ffffff;
   position: absolute;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
@@ -143,10 +143,46 @@
 }
 .home-image {
   width: 100%;
-  height: 1004px;
+  height: 1010px;
   object-fit: cover;
 }
+@media(max-width: 1600px) {
+  .home-heading {
+    top: 193px;
+    left: 708px;
+  }
+  .home-text {
+    top: 316px;
+    left: 147px;
+  }
+  .home-link {
+    top: 511px;
+    left: 793px;
+  }
+}
+@media(max-width: 1200px) {
+  .home-heading {
+    top: 193px;
+    left: 470px;
+  }
+  .home-text {
+    top: 307px;
+    left: -91px;
+  }
+  .home-link {
+    top: 494px;
+    left: 555px;
+  }
+}
 @media(max-width: 991px) {
+  .home-heading {
+    top: 206px;
+    left: 360px;
+  }
+  .home-text {
+    top: 305px;
+    left: -197px;
+  }
   .home-text10 {
     text-align: center;
   }
@@ -159,8 +195,21 @@
   .home-text26 {
     text-align: center;
   }
+  .home-link {
+    top: 484px;
+    left: 445px;
+  }
 }
 @media(max-width: 767px) {
+  .home-heading {
+    top: 216px;
+    left: 251px;
+  }
+  .home-text {
+    top: 308px;
+    left: -307px;
+    font-size: 17px;
+  }
   .home-container1 {
     flex-direction: column;
   }
@@ -181,8 +230,23 @@
   .home-text28 {
     text-align: center;
   }
+  .home-link {
+    top: 483px;
+    left: 334px;
+  }
 }
 @media(max-width: 479px) {
+  .home-heading {
+    top: 118px;
+    left: 152px;
+    width: 231px;
+    padding-bottom: 3px;
+  }
+  .home-text {
+    top: 277px;
+    left: -439px;
+    font-size: 10px;
+  }
   .home-container1 {
     flex-direction: column;
   }
@@ -193,8 +257,8 @@
     padding-bottom: var(--dl-space-space-twounits);
     grid-template-columns: 1fr;
   }
-}
-.container {
-  max-width: 800px;
-  width: 100%;
+  .home-link {
+    top: 353px;
+    right: 173px;
+  }
 }
