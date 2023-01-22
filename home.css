@@ -198,22 +198,3 @@
   max-width: 800px;
   width: 100%;
 }
-.home-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-heading, .home-text, .home-container1 {
-  flex: 1 0 100%;
-}
-
-@media (min-width: 1080px) {
-  .home-heading, .home-text {
-    flex: 1 0 50%;
-  }
-  .home-container1 {
-    flex: 1 0 25%;
-  }
-}
