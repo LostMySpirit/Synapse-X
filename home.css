@@ -160,7 +160,7 @@
     text-align: center;
   }
 }
-@media(max-width: 767px) {
+@media (min-width: 3840px) {
   .home-container1 {
     flex-direction: column;
   }
