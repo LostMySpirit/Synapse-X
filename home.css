@@ -146,119 +146,32 @@
   height: 1010px;
   object-fit: cover;
 }
-@media(max-width: 1600px) {
+@media(max-width: 1080px) {
   .home-heading {
-    top: 193px;
-    left: 708px;
+    top: 149px;
+    left: 395px;
   }
   .home-text {
-    top: 316px;
-    left: 147px;
+    top: 301px;
+    left: -166px;
   }
   .home-link {
-    top: 511px;
-    left: 793px;
+    top: 493px;
+    left: 481px;
   }
 }
-@media(max-width: 1200px) {
+@media(max-width: 720px) {
   .home-heading {
-    top: 193px;
-    left: 470px;
+    top: 192px;
+    left: 225px;
   }
   .home-text {
-    top: 307px;
-    left: -91px;
+    top: 323px;
+    left: -338px;
+    font-size: 16px;
   }
   .home-link {
-    top: 494px;
-    left: 555px;
-  }
-}
-@media(max-width: 991px) {
-  .home-heading {
-    top: 206px;
-    left: 360px;
-  }
-  .home-text {
-    top: 305px;
-    left: -197px;
-  }
-  .home-text10 {
-    text-align: center;
-  }
-  .home-text15 {
-    text-align: center;
-  }
-  .home-text18 {
-    text-align: center;
-  }
-  .home-text26 {
-    text-align: center;
-  }
-  .home-link {
-    top: 484px;
-    left: 445px;
-  }
-}
-@media(max-width: 767px) {
-  .home-heading {
-    top: 216px;
-    left: 251px;
-  }
-  .home-text {
-    top: 308px;
-    left: -307px;
-    font-size: 17px;
-  }
-  .home-container1 {
-    flex-direction: column;
-  }
-  .home-stats {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-    grid-template-columns: 1fr 1fr;
-  }
-  .home-text13 {
-    text-align: center;
-  }
-  .home-text16 {
-    text-align: center;
-  }
-  .home-text21 {
-    text-align: center;
-  }
-  .home-text28 {
-    text-align: center;
-  }
-  .home-link {
-    top: 483px;
-    left: 334px;
-  }
-}
-@media(max-width: 479px) {
-  .home-heading {
-    top: 118px;
-    left: 152px;
-    width: 231px;
-    padding-bottom: 3px;
-  }
-  .home-text {
-    top: 277px;
-    left: -439px;
-    font-size: 10px;
-  }
-  .home-container1 {
-    flex-direction: column;
-  }
-  .home-stats {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-    grid-template-columns: 1fr;
-  }
-  .home-link {
-    top: 353px;
-    right: 173px;
+    top: 460px;
+    left: 310px;
   }
 }
