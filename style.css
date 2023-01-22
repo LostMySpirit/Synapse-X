@@ -65,11 +65,11 @@
   text-transform: none;
   text-decoration: none;
 }
-
-@media (max-width: 600px) {
-  .Heading {
-    font-size: 24px;
-  }
+@media (min-width: 3840px) {
+    /* Styles for devices with screen width greater than 3840px */
+    .Heading {
+        font-size: 40px;
+    }
 }
 .Content {
   font-size: 16px;
