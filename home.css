@@ -147,7 +147,7 @@
   height: auto;
   object-fit: cover;
 }
-@media(max-width: 1080px) {
+@media(max-width: 1920px) {
   .home-heading {
     top: 113px;
     left: 0px;
@@ -158,8 +158,8 @@
     font-family: Roboto;
   }
   .home-text {
-    top: 292px;
-    left: -153px;
+    top: 360px;
+    left: 267px;
     height: auto;
     margin: auto;
   }
@@ -169,8 +169,8 @@
     min-height: auto;
   }
   .home-link {
-    top: 517px;
-    left: 495px;
+    top: 519px;
+    left: 913px;
     height: auto;
   }
   .home-image {
