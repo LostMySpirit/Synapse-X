@@ -65,7 +65,7 @@
   text-transform: none;
   text-decoration: none;
 }
-@media (min-width: 3840px) {
+@media(max-width: 479px) {
     /* Styles for devices with screen width greater than 3840px */
     .Heading {
         font-size: 40px;
